@@ -1,0 +1,86 @@
+﻿  @charset "utf-8";
+/* CSS Document */
+
+* { font-family: Georgia 10pt;
+ }
+
+ html, body { height: 100%; }
+ body {
+   /* font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+	margin:auto;
+   }
+
+   #container {
+    width: 1130px; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+    position: relative; /* Относительное позиционирование */
+	border: 1px ridge #C8520B;
+   }
+   #header {
+    background: url(/img/head.jpg); /* Цвет фона */
+    font-size: 24pt; /* Размер текста */
+    font-weight: bold; /* Жирное начертание */
+    color: #000; /* Цвет текста */
+	width: 100%;
+	height: 180px;
+   }
+   td {
+	   width: 183px;
+	   height: 20px;
+	  background: url(/img/butt.jpg);
+  	  border: 2px ridge #C8520B;
+	}
+	  
+ #content {
+    width: 1130px; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+    position: relative; /* Относительное позиционирование */
+   }
+   #main {
+	   background: url(/img/mback.jpg);
+	   color: #000;
+	   margin-left: 24%;
+	  /*  border: 4px ridge #C8520B; */
+	  padding-left:65px;
+	  padding-right: 140px;
+	  border: 1px ridge #C8520B;
+	      }
+  
+   #sidebar {
+    width: 22%; /* Ширина */
+	background: url(/img/sbback.jpg);
+	color: #000;
+	float: left;
+	height: 100%;
+	position: relative;
+	border: 1px ridge #C8520B;
+	padding-left: 22px;
+/*	border: 4px ridge #C8520B; */
+   }
+
+    #footer {
+	height: 50px;
+	width: 1130px;
+	background: url(/img/foot.jpg);
+	color: #000;
+	clear: both;
+	position: releative; /* ����������������, relative ����� ��� ��������� ������� */
+	bottom:0;
+	border: 2px ridge #B47E25;
+	opacity: 0.8; /* Значение прозрачности */
+    filter: alpha(Opacity=70); /* Прозрачность в IE */	
+}
+
+ a:link {
+    color: #000; /* ���� ������ */
+   }
+   a:visited {
+    color: #000; /* ���� ���������� ������ */
+   }
+  a:hover {
+    color: #B57A17; 
+		   }
+
+	a {
+		text-decoration: none;
+	  }
