@@ -1,0 +1,30 @@
+﻿#main {
+	background: url(mback.jpg);
+}
+
+#timetable {
+	margin: 0;
+	width: 760px;
+	height:220px;
+}
+
+#div1, #div2, #div3, #div4, #div5, #div6, #div7 {
+	float: left;
+	overflow: hidden;
+	width: 100px;
+	height: 220px;
+}
+
+.tt_img {
+	float: left;
+	width: 100px;
+	height: 200px;
+	margin: 5px 50px 100px 5px;
+	cursor: pointer;
+	box-shadow: 0px 0px 6px black;
+	-webkit-box-shadow: 0px 0px 6px black;
+	-moz-box-shadow: 0px 0px 6px black;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
